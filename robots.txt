@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /src/assets/img
+Disallow: /index.html?=

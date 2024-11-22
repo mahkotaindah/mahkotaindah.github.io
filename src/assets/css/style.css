@@ -1,0 +1,194 @@
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b325f;
+}
+section.mobile-only {
+    width: 576px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 1.2rem;
+    background: #2b2b2b;
+}
+section.mobile-only main {
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: relative;
+}
+section.mobile-only .btn-share {
+    right: 3rem;
+    bottom: 4.5rem;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    padding: 0.75rem;
+    font-size: 1.75rem;
+    border: 3px solid #1b325f;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b325f;
+    background: transparent;
+    position: absolute;
+    transition: all 0.015s ease-in;
+}
+/* section.mobile-only .btn-share:active,
+section.mobile-only .btn-share:hover {
+    color: #1b325f;
+    background: #3a89c9;
+} */
+section.mobile-only .btn-share:active {
+    color: whitesmoke;
+    background: #1b325f;
+    font-weight: 600;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+header .profile-resto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .profile-resto .brand-resto {
+    display: block;
+    position: relative;
+}
+header .profile-resto .bio-resto {
+    width: 100%;
+    color: #f1f2f3;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+header a {
+    width: 100%;
+    color: whitesmoke;
+    background-color: #3a89c9;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+section.mobile-only main .service {
+    width: 100%;
+    margin-top: 1rem;
+}
+section.mobile-only main .service .btn-group-service {
+    width: 100%;
+    gap: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+section.mobile-only main .service .btn-group-service .btn-divider {
+    gap: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-service {
+    width: 100%;
+    color: #f1f2f3;
+    background: #1b325f;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+.btn-service img {
+    margin-right: 0.5rem;
+}
+.divider {
+    color: #f1f2f3;
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+    text-shadow: 2px 2px black;
+}
+.divider::before {
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 35%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+}
+.divider::after {
+    content: "";
+    top: 50%;
+    right: 0;
+    width: 35%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+}
+.socials {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.socials a {
+    color: #1b325f;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+footer {
+    left: 50%;
+    width: 100%;
+    color: #f1f2f3;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%);
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+.acc-kitchen {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.acc-foods {
+    right: -50%;
+    bottom: -25%;
+    position: absolute;
+}
