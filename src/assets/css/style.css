@@ -101,7 +101,7 @@ section.mobile-only main .service {
 }
 section.mobile-only main .service .btn-group-service {
     width: 100%;
-    gap: 1rem;
+    gap: 1.75rem;
     position: relative;
     display: flex;
     justify-content: space-around;
